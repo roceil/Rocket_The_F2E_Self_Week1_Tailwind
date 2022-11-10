@@ -642,11 +642,11 @@ select {
 .contents {
   display: contents;
 }
-.h-screen {
-  height: 100vh;
-}
 .h-\[90px\] {
   height: 90px;
+}
+.h-screen {
+  height: 100vh;
 }
 .h-full {
   height: 100%;
@@ -695,9 +695,31 @@ select {
 .bg-\[url\(\'\/assets\/images\/banner_star\.png\'\)\] {
   background-image: url('/assets/images/banner_star.png');
 }
+.pt-\[27px\] {
+  padding-top: 27px;
+}
+.pb-\[\] {
+  padding-bottom: ;
+}
+.pb-\[26px\] {
+  padding-bottom: 26px;
+}
+.pl-\[\] {
+  padding-left: ;
+}
+.pl-\[43px\] {
+  padding-left: 43px;
+}
+.pl-\[24px\] {
+  padding-left: 24px;
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .font-normal {
   font-weight: 400;
@@ -705,10 +727,18 @@ select {
 .leading-6 {
   line-height: 1.5rem;
 }
+.leading-\[1\.94\] {
+  line-height: 1.94;
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-stroke {
+    -webkit-text-stroke: 1px #AE025B;
+    color: white;
+  }
+
 @media (min-width: 1074px) {
 
   .lg\:absolute {
@@ -823,6 +853,30 @@ select {
     top: 46px;
   }
 
+  .lg\:bottom-\[194px\] {
+    bottom: 194px;
+  }
+
+  .lg\:right-\[27px\] {
+    right: 27px;
+  }
+
+  .lg\:top-\[18px\] {
+    top: 18px;
+  }
+
+  .lg\:right-\[246\.07px\] {
+    right: 246.07px;
+  }
+
+  .lg\:top-\[0px\] {
+    top: 0px;
+  }
+
+  .lg\:top-\[386\.44px\] {
+    top: 386.44px;
+  }
+
   .lg\:mt-\[129px\] {
     margin-top: 129px;
   }
@@ -839,6 +893,10 @@ select {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .lg\:h-\[calc\(100vh-129px\)\] {
+    height: calc(100vh - 129px);
   }
 
   .lg\:h-full {
@@ -911,9 +969,18 @@ select {
     padding-right: 72px;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:leading-\[1\.22222\] {
+    line-height: 1.22222;
   }
 
   .lg\:text-white {
