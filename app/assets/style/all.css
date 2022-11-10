@@ -14,4 +14,8 @@
   .font_inter {
     font-family: 'Inter', sans-serif;
   }
+  .text-stroke {
+    -webkit-text-stroke: 1px #AE025B;
+    color: white;
+  }
 }
