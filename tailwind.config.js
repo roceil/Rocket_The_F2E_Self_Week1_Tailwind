@@ -2,7 +2,10 @@ module.exports = {
   content: ["./app/**/*.{html,ejs}"],
   theme: {
     extend: {
-      colors: { 
+      backgroundImage: {
+        "main_bg": "url('https://raw.githubusercontent.com/roceil/Rocket_The_F2E_Self_Week1_Tailwind/gh-pages/assets/images/banner_star.png')",
+      },
+      colors: {
         primary01: "#FFD336",
         primary01_dark: "#F7B518",
         primary02: "#1A3966",
