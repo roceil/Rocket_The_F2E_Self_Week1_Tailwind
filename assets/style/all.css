@@ -751,6 +751,9 @@ select {
 .bg-\[url\(\'\/assets\/images\/banner_star\.png\'\)\] {
   background-image: url('/assets/images/banner_star.png');
 }
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/roceil\/Rocket_The_F2E_Self_Week1_Tailwind\/gh-pages\/assets\/images\/banner_star\.png\'\)\] {
+  background-image: url('https://raw.githubusercontent.com/roceil/Rocket_The_F2E_Self_Week1_Tailwind/gh-pages/assets/images/banner_star.png');
+}
 .pt-\[27px\] {
   padding-top: 27px;
 }
@@ -1105,14 +1108,6 @@ select {
     bottom: 303px;
   }
 
-  .lg\:right-0 {
-    right: 0px;
-  }
-
-  .lg\:top-\[194px\] {
-    top: 194px;
-  }
-
   .lg\:top-\[257px\] {
     top: 257px;
   }
@@ -1121,28 +1116,8 @@ select {
     right: 173px;
   }
 
-  .lg\:top-\[px\] {
-    top: px;
-  }
-
-  .lg\:top-\[406px\] {
-    top: 406px;
-  }
-
-  .lg\:right-\[57px\] {
-    right: 57px;
-  }
-
   .lg\:right-\[42px\] {
     right: 42px;
-  }
-
-  .lg\:right-\[5\\px\] {
-    right: 5\px;
-  }
-
-  .lg\:right-\[5px\] {
-    right: 5px;
   }
 
   .lg\:z-20 {
