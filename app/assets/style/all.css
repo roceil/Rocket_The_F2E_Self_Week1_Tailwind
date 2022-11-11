@@ -18,4 +18,8 @@
     -webkit-text-stroke: 1px #AE025B;
     color: white;
   }
+  .text-stroke-green {
+    -webkit-text-stroke: 1px #59A3AF;
+    color: white;
+  }
 }

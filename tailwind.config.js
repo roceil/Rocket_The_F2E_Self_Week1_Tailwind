@@ -2,7 +2,7 @@ module.exports = {
   content: ["./app/**/*.{html,ejs}"],
   theme: {
     extend: {
-      colors: {
+      colors: { 
         primary01: "#FFD336",
         primary01_dark: "#F7B518",
         primary02: "#1A3966",
