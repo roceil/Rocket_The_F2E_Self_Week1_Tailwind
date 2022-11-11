@@ -751,7 +751,10 @@ select {
 .bg-\[url\(\'\/assets\/images\/banner_star\.png\'\)\] {
   background-image: url('/assets/images/banner_star.png');
 }
-.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/roceil\/Rocket_The_F2E_Self_Week1_Tailwind\/gh-pages\/assets\/images\/banner_star\.png\'\)\] {
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+.bg-main_bg {
   background-image: url('https://raw.githubusercontent.com/roceil/Rocket_The_F2E_Self_Week1_Tailwind/gh-pages/assets/images/banner_star.png');
 }
 .pt-\[27px\] {
