@@ -10,6 +10,9 @@
   }
 }
 @layer components {
+  .banner-btn{
+    @apply bg-secondary01 border-4 border-[#B6ECEE] rounded-full flex justify-center items-center
+  }
   .footer-btn {
     @apply text-[#FFBFFC] text-3xl py-[26px] w-[320px] lg:absolute lg:top-1/2 lg:translate-y-[-50%]  bg-black border-8 border-[#FFBFFC] rounded-[20px] lg:hover:bg-[#FFBFFC] lg:hover:text-black lg:hover:duration-300 lg:hover:ease-in-out
   }

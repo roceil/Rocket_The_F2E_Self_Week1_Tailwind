@@ -25,11 +25,14 @@ module.exports = {
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
-      lg: "1074px",
-      // => @media (min-width: 1024px) { ... }
+      md: "991px",
+      // => @media (min-width: 991px) { ... }
 
-      // lg: "1438px",
-      // // => @media (min-width: 1438px) { ... }
+      lg: "1024px",
+      // => @media (min-width: 1440px) { ... }
+
+      xl: "1440px",
+      // => @media (min-width: 1440px) { ... }
     },
   },
   plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
