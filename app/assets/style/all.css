@@ -9,6 +9,11 @@
     line-height: 1.4375;
   }
 }
+@layer components {
+  .footer-btn {
+    @apply text-[#FFBFFC] text-3xl py-[26px] w-[320px] lg:absolute lg:top-1/2 lg:translate-y-[-50%]  bg-black border-8 border-[#FFBFFC] rounded-[20px] lg:hover:bg-[#FFBFFC] lg:hover:text-black lg:hover:duration-300 lg:hover:ease-in-out
+  }
+}
 
 @layer utilities {
   .font_inter {
@@ -26,7 +31,14 @@
     -webkit-text-stroke: 2px #E7B97E;
     color: black;
   }
+  .text-stroke-white {
+    -webkit-text-stroke: 3px #FFFFFF;
+    color: transparent;
+  }
   .bg-blue-op80{
     background: rgba(3, 94, 201, 0.8);
+  }
+  .bg-black-80{
+    background: rgba(0, 0, 0, 0.5);
   }
 }
