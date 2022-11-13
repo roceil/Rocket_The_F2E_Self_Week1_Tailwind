@@ -16,7 +16,7 @@
   </head>
 
   <body class="overflow-x-hidden">
-    <header class="bg-black z-50 lg:py-[47px] fixed top-0 w-full">
+    <header class="bg-black-80 z-50 lg:py-[47px] fixed top-0 w-full">
       <div class="lg:pr-[72px] ">
         <ul class="lg:h-full lg:flex lg:items-center lg:justify-end lg:text-white">
           <!-- 01 -->
@@ -53,7 +53,8 @@
     </header>
 
     
-<main class="lg:mt-[129px]">
+<main class="">
+  <div class="bg-black h-[129px] w-screen bg-main_bg"></div>
   <!-- banner -->
   <section class="bg-[#192633] lg:h-[calc(100vh-129px)] bg-main_bg relative">
     <!-- 星球定位 -->
@@ -388,37 +389,23 @@
       <!-- 圖片區塊 -->
       <!-- ?UFO -->
       <img
-        class="lg:absolute lg:top-[-100px] lg:left-1/2 lg:translate-x-[-50%]"
-        src="./assets/images/4-UFO-bg1.png"
+        class="lg:absolute lg:top-0 lg:left-1/2 lg:translate-x-[-44%]"
+        src="./assets/images/4-main-new-bg.png"
         alt=""
       />
-      <!-- ?4-planet-1 -->
-      <img
-        class="lg:absolute lg:right-[347.14px] lg:top-[650px]"
-        src="./assets/images/4-planet-1.png"
-        alt=""
-      />
-      <!-- ?4-planet-2 -->
-      <img
-        class="lg:absolute lg:left-[244px] lg:bottom-[303px]"
-        src="./assets/images/4-planet-2.png"
-        alt=""
-      />
-
       <!-- 文字區塊 -->
-      <!-- ?年度最強設計 -->
-      <h2
-        class="lg:absolute lg:top-[257px] lg:right-[162px] lg:text-[40px] font-bold lg:leading-[1.21025] text-white text-stroke font-inter"
-      >
-        年度最強合作<br />
-        三大主題來襲
-      </h2>
-      <p
-        class="lg:absolute text-white text-stroke-green lg:text-[28px] font-bold text-center lg:top-[365px] lg:right-[42px]"
-      >
-        各路廠商強強聯手<br />
-        共同設計出接地氣的網頁互動挑戰關卡
-      </p>
+      <div class="lg:absolute lg:top-[385px] lg:right-[57 px] text-center">
+        <h2
+          class="lg:text-[40px] font-bold lg:leading-[1.21025] text-white text-stroke font-inter lg:mb-[43px]"
+        >
+          年度最強合作<br />
+          三大主題來襲
+        </h2>
+        <p class="text-white text-stroke-green lg:text-[28px] font-bold">
+          各路廠商強強聯手<br />
+          共同設計出接地氣的網頁互動挑戰關卡
+        </p>
+      </div>
     </div>
   </section>
 
@@ -958,7 +945,25 @@
 </main>
 
 
+    <footer class="bg-[#12263D] w-full h-[252px]  relative overflow-hidden">
+      <!-- 背景文字 -->
+      <ul>
+        <li class="text-[91px] leading-[1.31111] text-stroke-white opacity-40">各界大神接力分享  各界大神接力分享  各界大神接力分享  各界大神接力分享 各界大神接力分享  各界大神接力分享  各界大神接力分享  各界大神接力分享</li>
+        <li class="text-[91px] leading-[1.31111] text-stroke-white opacity-40">各界大神接力分享  各界大神接力分享  各界大神接力分享  各界大神接力分享 各界大神接力分享  各界大神接力分享  各界大神接力分享  各界大神接力分享</li>
+      </ul>
+      <!-- 按鈕 -->
+      <ul class="">
+        <li>
+          <input class="footer-btn lg:left-[19.65277%]" type="button" value="各界大神接力分享">
+        </li>
+
+        <li>
+          <input class="footer-btn lg:right-[19.65277%]" type="button" value="常見問題">
+        </li>
+      </ul>
+    </footer>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
 </html>
+  
